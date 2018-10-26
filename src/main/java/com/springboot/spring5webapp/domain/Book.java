@@ -28,6 +28,10 @@ public class Book {
         this.publisher = publisher;
     }
 
+    public void addAuthor(Author author) {
+        this.authors.add(author);
+    }
+
     public Book(String title, String isbn, String publisher, Set<Author> authors) {
         this.title = title;
         this.isbn = isbn;
